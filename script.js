@@ -9,7 +9,7 @@ const useNumber = document.getElementById('useNumber')
 const useSymbol = document.getElementById('useSymbol')
 const passwordBox = document.getElementById('password')
 
-let allChars = '' //uppercase + lowercase + numbers + symbols
+let allChars = ''
 
 function generatePassword() {
   let newPassword = ''
